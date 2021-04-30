@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+    </style>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  </head>
+  <body>
+    <section class="app">
+      <nav>
+        <h1>numerist</h1>
+        <span>Blistering speed.</span>
+      </nav>
+
+      <div class="main">
+        <table border="1" cellspacing="0">
+          <td id="inputLabel" colspan="4">0</td>
+          <tr>
+            <td><button onclick="pushBtn(this)" class="high">AC</button></td>
+            <td><button onclick="pushBtn(this)" class="high">C</button></td>
+            <td><button onclick="pushBtn(this)" class="high">%</button></td>
+            <td><button onclick="pushBtn(this)" class="high">/</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="pushBtn(this)">7</button></td>
+            <td><button onclick="pushBtn(this)">8</button></td>
+            <td><button onclick="pushBtn(this)">9</button></td>
+            <td><button onclick="pushBtn(this)" class="high">*</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="pushBtn(this)">4</button></td>
+            <td><button onclick="pushBtn(this)">5</button></td>
+            <td><button onclick="pushBtn(this)">6</button></td>
+            <td><button onclick="pushBtn(this)" class="high">-</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="pushBtn(this)">1</button></td>
+            <td><button onclick="pushBtn(this)">2</button></td>
+            <td><button onclick="pushBtn(this)">3</button></td>
+            <td><button onclick="pushBtn(this)" class="high">+</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="pushBtn(this)">0</button></td>
+            <td><button onclick="pushBtn(this)">00</button></td>
+            <td><button onclick="pushBtn(this)">.</button></td>
+            <td><button onclick="pushBtn(this)" class="high">=</button></td>
+          </tr>
+        </table>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <p class="footer_heading">Anything..!! just contact Me</p>
+
+          <div class="quick_links">
+            <ul>
+              <li><a href="">HOME</a></li>
+              <li><a href="">ABOUT</a></li>
+              <li><a href="">TESTIMONIAL</a></li>
+              <li><a href="">CODE SHOP</a></li>
+              <li><a href="">PRESS</a></li>
+              <li><a href="">RESUME</a></li>
+            </ul>
+          </div>
+          <p>nimishdubey03@gmail.com</p>
+
+          <div class="socials">
+            <a class="instagram" href="https://www.instagram.com/nimish.dubey/">
+              <ion-icon name="logo-instagram"></ion-icon
+            ></a>
+            <a class="twitter" href="https://twitter.com/Nimish_dubey03">
+              <ion-icon name="logo-twitter"></ion-icon
+            ></a>
+            <a
+              class="facebook"
+              href="https://www.facebook.com/nimish.dubey.50/"
+            >
+              <ion-icon name="logo-facebook"></ion-icon
+            ></a>
+            <a class="github" href="https://github.com/nimishdubey03">
+              <ion-icon name="logo-github"></ion-icon
+            ></a>
+          </div>
+          <p class="copyright">&copy; 2021 NIMISH DUBEY. All rights reserved</p>
+        </div>
+      </footer>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
